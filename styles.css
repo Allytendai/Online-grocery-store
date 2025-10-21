@@ -1,0 +1,142 @@
+
+body {
+    font-family: Arial, sans-serif; 
+    line-height: 1.6; 
+    color: #333; 
+    background-color: #f8f9fa; 
+    margin: 0; 
+}
+
+/* Style the main container for centered content */
+.container {
+    max-width: 960px; 
+    margin: 20px auto; 
+    padding: 0 15px; 
+}
+
+/* Style page headers for prominence */
+h1, h2 {
+    color: #28a745; 
+    text-align: center; 
+    margin-bottom: 20px; 
+}
+
+/* Style footer for consistent placement and appearance */
+footer {
+    text-align: center; 
+    margin-top: 40px; 
+    padding: 10px 0; 
+    color: #666; 
+    border-top: 1px solid #dee2e6; 
+}
+
+form {
+    max-width: 500px; 
+    margin: 20px auto; 
+}
+
+
+form label {
+    display: block; 
+    margin-top: 10px; 
+    font-weight: bold; 
+}
+
+form input, 
+form select {
+    width: 100%; 
+    padding: 10px; 
+    border: 1px solid #ced4da; 
+    border-radius: 5px; 
+    margin-top: 5px; 
+    font-size: 16px;
+    box-sizing: border-box; 
+}
+
+form input:focus, 
+form select:focus {
+    outline: none; 
+    border-color: #28a745; 
+    box-shadow: 0 0 5px rgba(40, 167, 69, 0.5); 
+}
+
+form button {
+    margin-top: 20px; 
+    padding: 10px 20px; 
+    background-color: #28a745; 
+    color: white; 
+    border: none; 
+    border-radius: 5px; 
+    cursor: pointer; 
+    font-size: 16px; 
+}
+
+form button:hover {
+    background-color: #218838; 
+}
+
+.captcha-image {
+    display: block; 
+    max-width: 200px; 
+    height: auto; 
+    margin: 10px 0; 
+    border: 1px solid #ced4da; 
+    border-radius: 5px; 
+}
+
+
+.form-select {
+    margin: 10px 0; 
+    font-size: 16px; 
+}
+
+#product-details {
+    margin: 20px 0; 
+    padding: 15px; 
+    border: 1px solid #dee2e6;
+    border-radius: 5px; 
+    background-color: #fff;
+}
+
+.product-image {
+    display: block; 
+    max-width: 200px; 
+    height: auto; 
+    margin: 10px 0; 
+    border: 1px solid #dee2e6; 
+    border-radius: 5px; 
+}
+
+.text-danger {
+    color: #dc3545; 
+    font-size: 14px; 
+    margin-top: 5px; 
+    display: block; 
+}
+
+.text-success {
+    color: #28a745; 
+    font-size: 14px; 
+    margin-top: 5px;
+    display: block; 
+}
+
+.alert-danger {
+    background-color: #f8d7da; 
+    color: #721c24; 
+    padding: 10px; 
+    border: 1px solid #f5c6cb; 
+    border-radius: 5px; 
+    margin-bottom: 15px; 
+}
+
+@media (max-width: 576px) {
+    form {
+        max-width: 100%; 
+        padding: 0 15px; 
+    }
+
+    .container {
+        padding: 0 10px; 
+    }
+}
